@@ -9,6 +9,7 @@ Steps to get up and running:
 3. Download library dependencies using `pip install -r requirements.txt`
 4. Run python app using `python speech_generator.py`
 5. Type any sentence and you will hear it be spoken by Scott
+6. *\* You may also need to install Tkinter for this to work, methods vary by os (eg. brew for Mac)*
 
 ## How does it Work?
 <img width="911" alt="image" src="https://user-images.githubusercontent.com/47277374/165859297-8ee2711e-8eed-422f-af78-a36100c0d159.png">
