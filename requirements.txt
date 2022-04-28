@@ -1,0 +1,4 @@
+lark==0.10.1
+regex==2020.11.11
+pydub==0.24.1
+PySimpleGUI==4.32.1
