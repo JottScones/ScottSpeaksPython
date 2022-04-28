@@ -7,6 +7,8 @@ def word_lookup(word):
         if line.lower().startswith(word.lower() + " "):
             print('Recognised: [{}]'.format(word))
             return line.split(' ')[1].strip('\n')
+    else:
+        print('Not Recognised: [{}]'.format(word))
 
     searchfile.close()
     return ''

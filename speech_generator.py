@@ -50,11 +50,11 @@ def sentence_to_tokens(sentence):
 # ------------------------------------------------------------------------------
 # GUI creation
 layout = [
-            [sg.Text("Text to speech", font='Any 30')],
+            [sg.Text("Type something to hear Scott say it!", font='Any 30')],
             [sg.InputText('', key="-INPUT-", font='Any 20')],
             [sg.Button("Play", size=(30,1))]
         ]
-window = sg.Window("Scott says", layout, margins=(100, 50))
+window = sg.Window("Scott Speaks", layout, margins=(100, 50))
 
 while True:
     event, values = window.read()
