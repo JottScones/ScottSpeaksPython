@@ -18,7 +18,7 @@ Steps to get up and running:
 The project makes use of the [Moby Project](https://en.wikipedia.org/wiki/Moby_Project) phonetic dictionary which is the largest phonetic database, containing 177,267 words.
 The dictionary represents the pronunciation of words using a defined set of 44 phonemes (or sounds).
 Using just these 44 sounds, one can piece them together to construct the sound of any word in the English language.
-This is the logic behind how this speech-to-text app works. In fact you can hear me pronounce each of the 44 phonemes by browsing the `/wavs`p directory!
+This is the logic behind how this speech-to-text app works. In fact you can hear me pronounce each of the 44 phonemes by browsing the `/wavs` directory!
 
 ### Lexical Analysis
 Each phoneme in the Moby dictionary is represented with a unique set of characters - 
