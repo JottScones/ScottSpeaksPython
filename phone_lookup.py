@@ -6,11 +6,10 @@ def word_lookup(word):
     for line in searchfile:
         if line.lower().startswith(word.lower() + " "):
             print('Recognised: [{}]'.format(word))
+            searchfile.close()
             return line.split(' ')[1].strip('\n')
-    else:
-        print('Not Recognised: [{}]'.format(word))
 
-    searchfile.close()
+    print('Not Recognised: [{}]'.format(word))
     return ''
 
 def sentence_lookup(sentence):
