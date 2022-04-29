@@ -5,11 +5,11 @@ def word_lookup(word):
     searchfile = open("moby_phones.txt", "r")
     for line in searchfile:
         if line.lower().startswith(word.lower() + " "):
-            print('Recognised: [{}]'.format(word))
+            print('Matched: [{}]'.format(word))
             searchfile.close()
             return line.split(' ')[1].strip('\n')
 
-    print('Not Recognised: [{}]'.format(word))
+    print('No Match: [{}]'.format(word))
     return ''
 
 def sentence_lookup(sentence):
